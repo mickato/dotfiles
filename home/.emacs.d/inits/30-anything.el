@@ -1,0 +1,7 @@
+(require 'anything)
+(require 'anything-config)
+(require 'anything-match-plugin)
+(require 'anything-complete)
+(anything-read-string-mode t)
+(require 'anything-show-completion)
+(global-set-key "\C-l" 'anything-filelist+)

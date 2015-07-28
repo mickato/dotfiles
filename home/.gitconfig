@@ -1,0 +1,6 @@
+[user]
+[alias]
+	ci = commit
+	br = branch
+	co = checktout
+	st = status
