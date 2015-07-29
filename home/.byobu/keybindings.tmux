@@ -103,3 +103,18 @@ unbind-key -n C-a
 unbind-key -n C-t
 set -g prefix ^T
 bind t send-prefix
+
+# copy-mode
+bind ^[ copy-mode
+
+# emacs like panel split
+unbind 0
+bind 0 jjoin-pane -h -s : . -t :-1
+unbind 1
+bind 1 break-pane
+unbind 2
+bind 2 split-window
+unbind 3
+bind 3 split-window -h
+
+
