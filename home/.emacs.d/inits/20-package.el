@@ -1,18 +1,29 @@
 ;; パッケージ情報の更新
-(package-refresh-contents)
+;;(package-refresh-contents)
 ;; インストールするパッケージ
 (defvar my/favorite-packages
   '(
-    ;; anything
-    anything anything-config
-    anything-match-plugin anything-complete
-    anything-show-completion
     ;; javascript
+    flymake-cursor
+    flymake-jshint
     coffee-mode
+    ;; scss
+    scss-mode
+    flymake-sass
+    ;; yaml
+    yaml-mode
+    flymake-yaml
+    ;; web-mode
+    web-mode
     ;; theme
     solarized-theme
     ;;
     magit git-gutter
+    ;; anything
+    anything
+    ;;anything-config
+    ;;anything-match-plugin anything-complete
+    ;;anything-show-completion
     ))
 
 ;; my/favorite-packagesからインストールしていないパッケージをインストール

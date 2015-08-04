@@ -1,5 +1,5 @@
 (require 'anything)
-(require 'anything-config)
+;;(require 'anything-config)
 (require 'anything-match-plugin)
 (require 'anything-complete)
 (anything-read-string-mode t)

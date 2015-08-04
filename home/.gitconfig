@@ -4,3 +4,8 @@
 	br = branch
 	co = checkout
 	st = status
+[push]
+	default = simple
+[core]
+	excludesfile = /home/michinobuakato/.gitignore
+	editor = vim

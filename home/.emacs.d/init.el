@@ -1,4 +1,10 @@
 
+(setq-default indent-tabs-mode nil)
+(setq default-tab-width 2)
+(setq kill-whole-linet t)
+(show-paren-mode 1)
+(setq inhibit-startup-message t)
+
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
@@ -10,5 +16,3 @@
 (require 'init-loader)
 (setq init-loader-show-log-after-init 'error-only)
 (init-loader-load "~/.emacs.d/inits")
-
-
