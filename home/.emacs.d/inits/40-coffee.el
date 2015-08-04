@@ -1,0 +1,5 @@
+(require 'coffee-mode)
+(require 'flymake-coffee)
+(add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
+(custom-set-variables '(coffee-tab-width 2))
+(add-hook 'coffee-mode-hook 'flymake-coffee-load)
