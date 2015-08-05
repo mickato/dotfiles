@@ -7,5 +7,5 @@
 [push]
 	default = simple
 [core]
-	excludesfile = /home/michinobuakato/.gitignore
+	excludesfile = ~/.gitignore
 	editor = vim

@@ -6,6 +6,7 @@
     ;; javascript
     flymake-cursor
     flymake-jshint
+    flymake-coffee
     coffee-mode
     ;; scss
     scss-mode

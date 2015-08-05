@@ -5,6 +5,10 @@
 (show-paren-mode 1)
 (setq inhibit-startup-message t)
 
+;; meta for mac
+(when (eq system-type 'darwin)
+  (setq ns-command-modifier (quote meta)))
+
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
