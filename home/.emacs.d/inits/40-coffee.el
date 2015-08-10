@@ -1,5 +1,7 @@
-(require 'coffee-mode)
-(require 'flymake-coffee)
+(autoload 'coffee-mode "coffee-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
-(custom-set-variables '(coffee-tab-width 2))
-(add-hook 'coffee-mode-hook 'flymake-coffee-load)
+(add-hook 'coffee-mode-hook
+          '(lambda()
+             (custom-set-variables '(coffee-tab-width 2))
+             (require 'flymake-coffee)
+             (flymake-coffee-load)))
