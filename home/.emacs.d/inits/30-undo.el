@@ -1,0 +1,5 @@
+(require 'undo-tree)
+(require 'undohist)
+(undohist-initialize)
+(global-undo-tree-mode t)
+(global-set-key (kbd "M-/") 'undo-tree-redo)
