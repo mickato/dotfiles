@@ -1,30 +1,31 @@
 ;; パッケージ情報の更新
 ;;(package-refresh-contents)
 ;; インストールするパッケージ
+;;; Code:
 (defvar my/favorite-packages
   '(
+    ;; dired+
+    dired+
     ;; javascript
-    flymake-cursor
-    flymake-jshint
-    flymake-coffee
     coffee-mode
     ;; scss
     scss-mode
-    flymake-sass
     ;; yaml
     yaml-mode
-    flymake-yaml
     ;; web-mode
     web-mode
     ;; theme
     solarized-theme
-    ;;
-    magit git-gutter
-    ;; anything
-    anything
-    ;;anything-config
-    ;;anything-match-plugin anything-complete
-    ;;anything-show-completion
+    ;; git
+    magit git-gutter git-gutter-fringe fringe-helper
+    ;; helm
+    helm helm-ag helm-descbinds helm-ls-git
+    ;; powerline
+    powerline
+    ;; yascroll
+    yascroll
+    ;; flycheck
+    flycheck flycheck-tip
     ))
 
 ;; my/favorite-packagesからインストールしていないパッケージをインストール
