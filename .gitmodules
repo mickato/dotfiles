@@ -1,3 +1,6 @@
 [submodule "home/.oh-my-zsh"]
 	path = home/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "home/.dircolors-solarized"]
+	path = home/.dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
