@@ -26,6 +26,8 @@
     yascroll
     ;; flycheck
     flycheck flycheck-tip
+    ;; golang
+    go-mode go-autocomplete go-eldoc
     ))
 
 ;; my/favorite-packagesからインストールしていないパッケージをインストール
