@@ -4,6 +4,8 @@
 ;;; Code:
 (defvar my/favorite-packages
   '(
+    exec-path-from-shell undo-tree markdown-mode smartparens
+    undohist rainbow-delimiters
     ;; dired+
     dired+
     ;; javascript
